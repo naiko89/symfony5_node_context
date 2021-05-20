@@ -12,7 +12,7 @@ class AstromuController extends AbstractController
     public function index(): Response
     {
         return $this->render('astromu/index.html.twig', [
-            'controller_name' => 'AstromuController',
+            'controller_name' => 'AstromuControllerBase',
         ]);
     }
 }
