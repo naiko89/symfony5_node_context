@@ -11,6 +11,10 @@ class AstromuController extends AbstractController
     #[Route('/astromu', name: 'astromu')]
     public function index(): Response
     {
+
+
+
+
         return $this->render('base.html.twig', [
             'controller_name' => 'AstromuControllerBase',
         ]);
